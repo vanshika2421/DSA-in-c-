@@ -1,3 +1,15 @@
+#include<bits/stdc++.h> // include header files
+using namespace std; 
+
+class node{ // added class 
+    public:
+    int data;
+    node* next;
+    node(int d){
+        this-> data = d;
+        this-> next = NULL;
+    }
+};
 
 node* floydDetection(node* &head){
     if(head == NULL){

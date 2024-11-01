@@ -57,7 +57,7 @@ int main(){
     cout << "linked list is : " ;
     print(head);
 
-    if(cheakLL){
+    if(cheakLL(head)){ // pass the head else it will gonna give compile time error
         cout << "this is circular LL" << endl;
     }
     else{
